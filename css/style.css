@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+}
+
+button,
+a {
+    text-transform: capitalize;
+}
+p {
+    width: 100% !important;
+}
+
+body {
+    background-color: #1c2136;
+}
+
+header {
+    background-color: #181c31;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {}
+
+
+
+.sign {}
+
+
+.flip-on input {
+    position: absolute;
+    top: 1.5%;
+    right: 5%;
+    padding: 6px 10px;
+    border: 1px solid white;
+    border-radius: 40%;
+
+    background-color: #4e6bff;
+    color: #fff;
+    opacity: .4;
+
+}
+
+.flip-on input:hover {
+    background-color: black;
+    border-radius: 40%;
+
+
+}
+
+.man {
+    background: #f36a8d;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.prithibi {
+    background: #20ca66;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.people {
+    background: #fa9161;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.flip-on img {
+    position: absolute;
+    top: 2%;
+    right: 18%;
+}
+
+
+.sign a {
+    position: absolute;
+    top: 2%;
+    right: 12%;
+    border: none;
+    color: #fff;
+}
+
+.row {}
+
+.row h1 {
+    width: 60%;
+}
+
+.row p {
+    width: 60%;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #757c86 !important;
+}
+
+.nav-link:hover {
+    color: #4e6bff !important;
+}
+
+.dropdown {
+    cursor: pointer;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-link.dropdown:hover .dropdown svg {
+    fill: #4e6bff !important;
+}
+
+header {
+    background: #161a28;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.banner-section {
+    padding-top: 8%;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10%;
+}
+.hero img {
+    position: absolute;
+    width: 40%;
+    right: -8%;
+    top: -18%;
+    z-index: -100;
+}
+.information h3 {
+    font-size: 35px;
+}
+.information p {
+    font-size: 17px;
+}
+
+.disabled {
+    color: transparent !important;
+}
+
+.nav-link.active {
+    color: #4e6bff !important;
+}
+
+.header-button {
+    display: flex;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.white:hover {
+    color: #fff !important;
+}
+
+.signup {
+    background-color: #ffffff2b;
+    border-radius: 50px;
+}
+
+.signup:hover {
+    background-color: #ffffff0e;
+    color: #fff !important;
+}
+
+/* brand */
+
+.Brand-strategy {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.Brand-strategy img {
+    width: 400px;
+    height: 260px;
+    margin: auto;
+    padding: 2% 0;
+}
+
+
+.image-1 {
+    position: relative;
+    padding-left: 4%;
+    padding-bottom: 5%;
+}
+
+.image-2 {
+    padding-left: 4%;
+}
+
+.shape3 {
+    position: absolute;
+    left: 0;
+    top: 4%;
+}
+
+.image-3 {
+    height: 495px;
+
+}
+
+.shape1 {
+    padding: 5% 0;
+}
+
+.shape2 {
+    padding: 5% 0;
+    width: 80%;
+    padding-left: 16%;
+}
+
+.smmm {
+    width: 90%;
+}
+
+/* about service */
+
+.imIcon2 img {}
+.service2 {
+    height: 495px;
+}
+.header-bottom-service {
+    overflow: hidden;
+    padding-bottom: 25% !important;
+}
+/* team banner */
+.service-banner,
+.primium,
+.Brand-strategy,
+.brand-picture,
+.client-testimonial {
+    background-color: #181c31;
+}
+
+.brand-picture {
+    width: 400px;
+    height: 260px;
+}
+
+
+
+.primium {
+    background-color: #1c2136;
+}
+
+
+.team-banner {
+    background: url(../images/shape-08.svg) no-repeat center top;
+    background-color: #1c2136;
+}
+
+.the-offer {
+    background-color: #181c31;
+    margin: 0 10px 0 10px;
+
+}
+
+.the-offer button {
+    padding: 8px 14px;
+    color: #fff;
+    background-color: #f36a8d;
+    border: none;
+}
+
+.the-offer span {
+    font-size: 14px;
+}
+
+.group {
+    background-color: #1c2136;
+    width: 60%;
+    margin: auto;
+    padding: 5px 8px;
+}
+
+.photo-brand {
+    padding-left: 30px;
+
+}
+
+.photo-brand img {
+    display: block;
+    padding: 0 0 20px 0;
+
+}
+
+
+.list-group {
+    flex-direction: row !important;
+    background: #1c2136 !important;
+    border-radius: 50px;
+    padding: 0.5%;
+
+}
+
+.list-group-item.active {
+    background: #4e6bff;
+    border-radius: 50px;
+    color: #fff !important;
+}
+
+.list-group-item {
+    background: #1c2136;
+    border-radius: 50px;
+    border: none;
+    color: #757c86 !important;
+}
+
+
+
+
+/* contact */
+.contact {
+    background: url('../images/shape-16.svg') no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    background-color: #181c31;
+}
+
+.contact-text-sec {
+    background: #1c2136;
+    padding: 6% 6% 15% 10%;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.form-contact {
+    color: #757c86 !important;
+    background: #1c2136;
+    padding: 6% 10% 8% 10%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.form-contact input,
+.form-contact textarea {
+    background: transparent;
+    border: 1px solid #757c86;
+    color: #757c86 !important;
+}
+
+.form-contact input:focus,
+.email-subscribe input:focus,
+.form-contact textarea:focus {
+    background: transparent;
+}
+
+.form-contact ::placeholder,
+.email-subscribe ::placeholder {
+    color: #757c86;
+    opacity: 1;
+    /* Firefox */
+}
+
+.form-contact :-ms-input-placeholder,
+.email-subscribe :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #757c86;
+}
+
+.form-contact ::-ms-input-placeholder,
+.email-subscribe ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #757c86;
+}
+
+.contact-form {
+    overflow: hidden;
+}
+
+.startup {
+    background: url(../images/shape-16.svg) no-repeat;
+    background-color: #4e6bff;
+}
+
+.email-subscribe input {
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid #757c86;
+    color: #757c86 !important;
+
+}
+
+.email-subscribe button {
+    border-radius: 50px;
+    transition: all 1s ease;
+}
+
+.email-subscribe button:hover {
+    background: #4e6bff !important;
+}
+
+.email-subscribe button:hover svg {
+    fill: #fff;
+}
+header {
+    z-index: 100;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .contact-text-sec {
+        height: 600px;
+    }
+
+    .form-contact {
+        height: 600px;
+    }
+    .hero img {
+        top: -8%;
+        width: 100%;
+
+    }
+    .information {
+        display: block;
+        margin-top: 100%;
+    }
+}
